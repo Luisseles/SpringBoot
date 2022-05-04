@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.generation.hello.word&apos; to &apos;com.generation.helloword&apos;&#x0D;&#x0A;- Original project: &apos;hello-word&apos;&#x0D;&#x0A;- Original element: &apos;hello-word/src/main/java/com.generation.hello.word&apos;&#x0D;&#x0A;- Renamed element: &apos;hello-word/src/main/java/com.generation.helloword&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.generation.hello.word&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.generation.hello.word" name="com.generation.helloword" qualified="false" references="true" stamp="1651092947980" textual="false" version="1.0"/>
+</session>
