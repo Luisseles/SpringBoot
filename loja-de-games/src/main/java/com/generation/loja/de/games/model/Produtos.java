@@ -40,10 +40,22 @@ public class Produtos {
 	@JsonIgnoreProperties("produtos")
 	private Categorias categorias;
 	
+	@ManyToOne
+	@JsonIgnoreProperties("produtos")
+	private Usuario usuario;
+	
 	public Date date = new java.sql.Date(System.currentTimeMillis()) ;
 
 	public Long getId() {
 		return id;
+	}
+
+	public Usuario getUsuario() {
+		return usuario;
+	}
+
+	public void setUsuario(Usuario usuario) {
+		this.usuario = usuario;
 	}
 
 	public void setId(Long id) {
